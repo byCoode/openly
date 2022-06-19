@@ -1,0 +1,20 @@
+{
+  "name": "@bycoode/openly",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "angular-helpers",
+    "helpers",
+    "node-helpers"
+  ],
+  "scripts": {
+    "start:node-helpers": "npm start node-helpers -w node-helpers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bycoode:byCoode/openly.git"
+  },
+  "author": "byCoode",
+  "license": "MIT"
+}
